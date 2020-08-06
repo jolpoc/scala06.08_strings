@@ -21,3 +21,20 @@ myFood.slice(3,7)
 myFood(7)
 // first chaining example
 myFood.toUpperCase.take(6).slice(1,4)
+myFood == "paste"
+myFood == "potatoes"
+println(s"My name is $myName and I really like $myFood")
+val myNumber = 92
+println(s"My name is $myName and I really like $myFood since $myNumber. Thanks")
+myFood.foreach(println) // really concise way of doing something to each character
+myFood.toUpperCase.foreach(println)
+val otherFood = "patata"
+myFood intersect otherFood
+myFood diff otherFood
+myFood.distinct //all unique
+
+res23+res24
+s"$res23 ****** $res24"
+myFood.count(_ =='o')
+val myMagic = "abrakadabra"
+
